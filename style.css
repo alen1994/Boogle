@@ -1,0 +1,127 @@
+body{
+    margin:0;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+h1{
+    color: #202124;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+    margin:0;
+    padding-top:15px;
+}
+
+h3{
+    color: #202124;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    padding-bottom: 0;
+    margin:0;
+    padding-top:8px;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    border:1px solid #dadce0;
+    border-radius:8px;
+    width:450px;
+    height: 500px;
+    padding:45px;
+}
+
+.bi-person-fill{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:#D3D3D3;
+    color:#A8A8A8;
+    padding:10px;
+}
+.box2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:300px;
+    }
+
+.signin{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.bottom{
+    display:flex;
+    justify-content:space-between;
+}
+.input{
+    display:flex;
+    flex-direction:column;
+    padding-top:32px;
+}
+.isci{
+    color: #202124;
+    font-size: 16px;
+    margin: 1px 1px 0 1px;
+    padding: 13px 15px;
+    background-color:rgb(232, 240, 254);
+    border:1px solid #dadce0;
+    border-radius:4px;
+}
+.img{
+    display:flex;
+    justify-content:center;
+}
+
+.forget {
+    letter-spacing: .25px;
+    font-family: Arial;
+    text-decoration:none;
+    padding-top:10px;
+}
+
+a{
+    letter-spacing: .25px;
+    font-family: Arial;
+    text-decoration:none;
+    padding-top:10px;
+    font-weight:bold;
+    font-size:15px;
+}
+
+footer{
+    width:450px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.text-link{
+    color:#757575;
+    font-weight:200;
+    font-size:12px;
+    padding-right:10px;
+}
+
+#count{
+    border:none;
+    color:black;
+    font-weight:400;
+    font-size:14px;
+    padding-right:10px;
+}
+
+.button, .button:hover{
+   padding:8px 20px 8px 20px;
+   background-color:#1a73e8;
+   color:white;
+}
